@@ -1,0 +1,19 @@
+name: THck
+main: cc.ranmc.farm.Main
+description: '桃韵斋专属作物菜单插件'
+author: xuanming
+version: 4.5
+api-version: "1.21"
+permissions: 
+  ck.user:
+    default: true
+    description: 'user only'
+
+  ck.admin:
+    default: op
+    description: 'admin only'
+
+commands:
+  ck:
+    description: ck
+    usage: /<command>

@@ -1,0 +1,24 @@
+gui:
+  main_title: "&d&l桃韵斋丨作物总仓库"
+  crop_title: "&d&l桃韵斋丨%crop%仓库"
+
+database:
+  host: localhost
+  port: 3306
+  name: tyz
+  user: tyz
+  password: wm123456
+
+crops:
+  wheat:
+    display: "§e小麦"
+    material: WHEAT
+    slot: 10
+  melon:
+    display: "§a西瓜"
+    material: MELON_SLICE
+    slot: 12
+  custom_crop:
+    display: "§b自定义作物"
+    material: DIAMOND
+    slot: 14
